@@ -75,7 +75,7 @@
 
      <!-- caster wheel Link -->
   <joint name="caster_wheel_joint" type="fixed">
-    <parent link="base_link"/>
+    <parent link="chassis"/>
     <child link="caster_wheel"/>
     <origin xyz="0.24 0 0" rpy="0 0 0"/>
   </joint>
